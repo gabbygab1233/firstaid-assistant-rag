@@ -1,0 +1,19 @@
+# config.yaml
+
+LLAMA_CLOUD_API_KEY: your-api-here
+
+# LLM & Embeddings
+llm: llama3:8b
+embed: nomic-embed-text
+similarity_k: 5
+
+# Paths
+paths:
+  pdf_file:
+    - data/r41041rgv10-first-aid-reference-guide.pdf 
+  md_path: data/first_aid_reference_guide.md
+  vector_dir: vector_data
+  eval_path: evaluation_result/evaluation_results.csv
+
+response_mode: tree_summarize
+chat_mode: condense_plus_context
