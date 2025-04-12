@@ -1,0 +1,67 @@
+Query,Response,Relevancy Score,Relevancy Pass,Relevancy Feedback,Faithfulness Score,Faithfulness Pass,Faithfulness Feedback
+"What actions should be taken if a child fell from a height and landed on their head, became momentarily unconscious, and now shows signs of confusion?","Assuming the child is responsive:
+
+1. Help the child to sit down in a comfortable position
+2. Apply a cold compress to their head injury
+3. Monitor breathing and level of response regularly. Keep a close eye on the level of response in case it deteriorates
+4. When they have recovered, ask a responsible adult to look after them
+5. If they were playing a sport when it happened, do not let them return to play until they have been fully assessed by a medical practitioner
+6. Seek medical help if any of the following apply:
+- worsening headache
+- difficulty in speaking or walking
+- vomiting
+- double vision
+- seizure
+- over 65 years old
+- previous brain surgery
+- they are taking anti clotting medication
+- they are intoxicated with drugs or alcohol
+- there is no responsible adult to look after them",1.0,True,YES,0.0,False,"Please provide the information you'd like me to evaluate, and I'll let you know if it's supported by the context."
+"What emergency procedures should be performed when someone suddenly begins gasping, clutching their throat, and is unable to speak or breathe during a meal?","Based on the provided context information, if someone suddenly begins gasping, clutching their throat, and is unable to speak or breathe during a meal, you should follow the emergency procedures for choking. 
+
+The recognition signs mentioned are:
+
+* Unable to cough or speak
+* Difficulty or absence of breathing
+* Grasping at the neck or throat
+* Pointing to the mouth or throat
+
+To clear the obstruction and get medical help, follow the treatment steps:
+
+1. Back blows: Use the heel of your hand to give up to five quick back blows between the shoulder blades.
+2. Abdominal thrusts: If the object is not dislodged by back blows, perform abdominal thrusts (the Heimlich maneuver).
+
+Perform these actions in cycles until the object is dislodged or the person becomes unconscious.
+
+If the person becomes unconscious:
+
+1. Check their airway and breathing; if they are not breathing normally, begin CPR.
+2. Dial 999 or 112 for an ambulance.
+3. Monitor the casualty's breathing and level of response until emergency services arrive.",1.0,True,YES,1.0,True,"I'm ready to help! Please provide the information you'd like me to evaluate, along with the reference contexts. I'll respond with either ""YES"" or ""NO""."
+"What first aid should be provided when a person is found unresponsive after being exposed to extreme heat, with hot, dry skin?","Based on the context, if a person is found unresponsive after being exposed to extreme heat, with hot, dry skin, the first aid that should be provided is as follows:
+
+* Wrap the casualty in a cold, wet sheet. Use cold water to keep the sheet wet until their temperature seems to return to normal. If no sheet is available, fan the casualty or sponge them with cold water.
+* Monitor their condition until the emergency services arrive. If their temperature rises again, repeat steps 3 and 4.
+
+This treatment aims to cool the casualty quickly and get urgent medical help.",1.0,True,YES,1.0,True,"Please provide the information you'd like me to evaluate, along with the context. I'll respond with either ""YES"" or ""NO"", depending on whether any part of the context supports the information.
+
+Example:
+Information: _____________________________________
+Context: _______________________________________
+Answer:"
+"What immediate care is needed when someone burns their hand on a hot pan, causing redness and pain?","When treating burns:
+
+1. Do not touch the burned area
+2. Leave in place any clothing stuck to the burn unless it is contaminated with chemicals
+3. Leave any blisters intact
+4. Hold the burn under cool or lukewarm running water for a minimum of 20 minutes, or until the pain eases
+5. Remove any jewellery or other constrictions while cooling
+6. Cover with a clean plastic bag, kitchen film or a sterile dressing
+
+Seek medical help if they have:
+
+* full thickness burns of any size
+* partial thickness burns larger than 1% (an area the size of the casualty's palm and fingers)
+* superficial burns larger than 5% of the body surface
+* burns on the hands, face, feet or genitals
+* burns with a mixed pattern and/or depth or that extend all around a limb",1.0,True,YES,1.0,True,"Please provide the information you'd like me to evaluate, along with the context segments. I'll respond with either ""YES"" or ""NO"", indicating whether the information is supported by any part of the provided context."

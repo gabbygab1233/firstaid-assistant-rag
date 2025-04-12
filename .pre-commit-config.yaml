@@ -1,0 +1,72 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-docstring-first
+      - id: check-added-large-files
+      - id: end-of-file-fixer
+      - id: trailing-whitespace     
+      - id: check-yaml
+      - id: debug-statements
+      - id: requirements-txt-fixer
+
+  - repo: https://github.com/myint/autoflake
+    rev: v2.0.0
+    hooks:
+      - id: autoflake
+        args:
+        - --in-place
+        - --remove-unused-variables            
+        - --remove-all-unused-imports
+
+  - repo: https://github.com/pycqa/isort
+    rev: v5.11.3
+    hooks:
+      - id: isort
+        name: Sorting imports
+
+  - repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
+    rev: v1.0.6
+    hooks:
+    -   id: python-bandit-vulnerability-check
+        name: Code vulnerabilities check
+        args: [--skip, "B101", --recursive, clumper]
+
+  - repo: https://github.com/Lucas-C/pre-commit-hooks-safety
+    rev: v1.3.0
+    hooks:
+    -   id: python-safety-dependencies-check
+        name: Package vulnerabilities check
+
+  - repo: https://github.com/psf/black
+    rev: 22.12.0
+    hooks:
+      - id: black
+        args: [--quiet]
+        name: Code Formatter
+
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v0.790
+    hooks:
+    -   id: mypy
+        name: Type Checker
+
+  - repo: local
+    hooks:
+    -   id: pytest
+        name: pytest
+        stages: [commit]
+        language: system
+        entry: pytest -v --showlocals
+        types: [python]
+        pass_filenames: false
+
+  - repo: https://github.com/PyCQA/pylint
+    rev: 'v2.15.9'
+    hooks:
+        - id: pylint
+
+# pre-commit run --all-files = to run all files
+#pre-commit autoupdate to know rev
+

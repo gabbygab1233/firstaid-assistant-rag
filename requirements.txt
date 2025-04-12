@@ -1,0 +1,11 @@
+chainlit==2.4.400
+faiss_cpu==1.10.0
+llama_cloud_services==0.6.9
+llama-index-embeddings-ollama==0.6.0
+llama-index-llms-ollama==0.5.4
+llama-index-readers-llama-parse==0.4.0 
+llama-index-vector-stores-faiss==0.3.0
+pandas==2.2.3
+python-dotenv==1.1.0
+PyYAML==6.0.2
+
