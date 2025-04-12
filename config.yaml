@@ -1,6 +1,6 @@
 # config.yaml
 
-LLAMA_CLOUD_API_KEY: llx-jraPqa5TpcbQEW7evZrwFZKO4GOUkRO3hmLwB8qROcFFXkC3
+LLAMA_CLOUD_API_KEY: your-api-here
 
 # LLM & Embeddings
 llm: llama3:8b
