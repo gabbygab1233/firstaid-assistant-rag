@@ -5,7 +5,7 @@
 FirstAidRAG is an intelligent first aid assistant that utilizes LlamaIndex and Ollama to process documents, extract relevant first aid information, and provide real-time assistance.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6ba0d93d-7565-4507-9ea1-2c02e5761680">
+  <img src="https://github.com/gabbygab1233/firstaid-assistant-rag/blob/main/image.png">
 </p>
 
 ---
